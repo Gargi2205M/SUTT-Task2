@@ -1,0 +1,93 @@
+.container
+{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+h2{
+    margin:0px;
+    color:grey;
+}
+
+header li{
+    background-color:aliceblue ;
+    float:left;
+    display:inline;
+    padding:20px;
+}
+header #branding{
+    float: left;
+    background-color: aliceblue;
+    min-height: 70px;
+    
+}
+header nav{
+    float:right;
+}
+.box{
+    float:left;
+    width:50%;
+
+}
+
+h3{
+    font-size: x-large ;
+    padding:0%;
+    margin:0%
+}
+h4{
+    padding:0%;
+    margin:0%;
+}
+.flex-container
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.item
+{
+    width:10px;
+    height:100px;
+
+    margin:10px;
+}
+.item:nth-of-type(1)
+{
+    flex-grow:1;
+    align-content: left;
+}
+.item:nth-of-type(2)
+{
+    flex-grow:2;
+    height:500px;
+}
+.item:nth-of-type(3)
+{
+    flex-grow:2;
+    height:500px;
+}
+
+span
+{
+color:blue;
+}
+.box4
+{
+    background-color: rgb(89, 235, 89);
+    color: green;
+    height:50px;
+}
+.box3
+{
+    background-color: rgb(189, 253, 189);
+}
+.box5
+{
+    background-color: rgb(71, 203, 239);
+    color: blue;
+    height:50px;
+}
+.box2
+{
+    background-color: rgb(167, 240, 255);
+}
